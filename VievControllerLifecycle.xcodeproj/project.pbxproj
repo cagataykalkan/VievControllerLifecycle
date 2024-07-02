@@ -13,9 +13,7 @@
 		E4F6DD532C34383F006F6515 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4F6DD522C34383F006F6515 /* Base */; };
 		E4F6DD552C343840006F6515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6DD542C343840006F6515 /* Assets.xcassets */; };
 		E4F6DD582C343840006F6515 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4F6DD572C343840006F6515 /* Base */; };
-		E4F6DD632C343840006F6515 /* VievControllerLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6DD622C343840006F6515 /* VievControllerLifecycleTests.swift */; };
-		E4F6DD6D2C343840006F6515 /* VievControllerLifecycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6DD6C2C343840006F6515 /* VievControllerLifecycleUITests.swift */; };
-		E4F6DD6F2C343840006F6515 /* VievControllerLifecycleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6DD6E2C343840006F6515 /* VievControllerLifecycleUITestsLaunchTests.swift */; };
+		E4F6DD7C2C343A71006F6515 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6DD7B2C343A71006F6515 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +43,8 @@
 		E4F6DD572C343840006F6515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4F6DD592C343840006F6515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4F6DD5E2C343840006F6515 /* VievControllerLifecycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VievControllerLifecycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4F6DD622C343840006F6515 /* VievControllerLifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VievControllerLifecycleTests.swift; sourceTree = "<group>"; };
 		E4F6DD682C343840006F6515 /* VievControllerLifecycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VievControllerLifecycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4F6DD6C2C343840006F6515 /* VievControllerLifecycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VievControllerLifecycleUITests.swift; sourceTree = "<group>"; };
-		E4F6DD6E2C343840006F6515 /* VievControllerLifecycleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VievControllerLifecycleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4F6DD7B2C343A71006F6515 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				E4F6DD4A2C34383F006F6515 /* VievControllerLifecycle */,
-				E4F6DD612C343840006F6515 /* VievControllerLifecycleTests */,
-				E4F6DD6B2C343840006F6515 /* VievControllerLifecycleUITests */,
 				E4F6DD492C34383F006F6515 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,29 +96,13 @@
 				E4F6DD4B2C34383F006F6515 /* AppDelegate.swift */,
 				E4F6DD4D2C34383F006F6515 /* SceneDelegate.swift */,
 				E4F6DD4F2C34383F006F6515 /* ViewController.swift */,
+				E4F6DD7B2C343A71006F6515 /* ViewController2.swift */,
 				E4F6DD512C34383F006F6515 /* Main.storyboard */,
 				E4F6DD542C343840006F6515 /* Assets.xcassets */,
 				E4F6DD562C343840006F6515 /* LaunchScreen.storyboard */,
 				E4F6DD592C343840006F6515 /* Info.plist */,
 			);
 			path = VievControllerLifecycle;
-			sourceTree = "<group>";
-		};
-		E4F6DD612C343840006F6515 /* VievControllerLifecycleTests */ = {
-			isa = PBXGroup;
-			children = (
-				E4F6DD622C343840006F6515 /* VievControllerLifecycleTests.swift */,
-			);
-			path = VievControllerLifecycleTests;
-			sourceTree = "<group>";
-		};
-		E4F6DD6B2C343840006F6515 /* VievControllerLifecycleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E4F6DD6C2C343840006F6515 /* VievControllerLifecycleUITests.swift */,
-				E4F6DD6E2C343840006F6515 /* VievControllerLifecycleUITestsLaunchTests.swift */,
-			);
-			path = VievControllerLifecycleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F6DD502C34383F006F6515 /* ViewController.swift in Sources */,
+				E4F6DD7C2C343A71006F6515 /* ViewController2.swift in Sources */,
 				E4F6DD4C2C34383F006F6515 /* AppDelegate.swift in Sources */,
 				E4F6DD4E2C34383F006F6515 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F6DD632C343840006F6515 /* VievControllerLifecycleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F6DD6D2C343840006F6515 /* VievControllerLifecycleUITests.swift in Sources */,
-				E4F6DD6F2C343840006F6515 /* VievControllerLifecycleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

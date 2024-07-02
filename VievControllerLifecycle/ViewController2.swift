@@ -11,19 +11,31 @@ class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("VC2 viewDidLoad Called")
+    }
 
-        // Do any additional setup after loading the view.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("VC2 viewWillAppear Called")
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("VC2 viewDidAppear Called")
     }
-    */
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("VC2 viewWillDisappear Called")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("VC2 viewDidDisappear Called")
+        
+        print("--------VC2 Destroyed--------")
+    }
+
+  
 
 }
