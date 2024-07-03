@@ -19,6 +19,7 @@ This method is called before the view is removed from the view hierarchy. The Vi
 ## viewDidDisappear:
 This method is called after the VC’s view has been removed from the view hierarchy. Use this method to stop listening for notifications or device sensors.
 
+https://github.com/cagataykalkan/VievControllerLifecycle/assets/95551940/da37d94a-e9b1-4fb7-86de-0dfb8e072779
 
 <br>
 <br>
@@ -47,3 +48,5 @@ This method is called right after the WillEnterForeground method and here the sc
 These methods are called when app stages to backgground .
 ### sceneDidDisconnect(_:)
 This is the interesting method of all the methods. When ever the scene is sent to background, iOS might decide to completely discard the scene to free up the resources. This doesn’t meant that the app is killed or not running, but just the scene is disconnected from the session and is not active. iOS can decide to reconnect back this scene to scene session when the user brings that particular scene to foreground again . This method can be used to discard any resources that aren’t used anymore.
+
+https://github.com/cagataykalkan/VievControllerLifecycle/assets/95551940/90e7734e-091e-4c78-808a-1018530ac237
